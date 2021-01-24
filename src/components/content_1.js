@@ -14,6 +14,7 @@ export default function Content() {
           }}
           alt="placeholding image"
           data-aos="fade-up"
+          data-aos-once="true"
         ></div>
         <div className="main-items-div-div">
           <h2>Talk about your company</h2>

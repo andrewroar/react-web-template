@@ -60,7 +60,7 @@ a {
 }
 
 .nav-item {
-  width: calc(var(--nav-size) * 0.8);
+  width: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@ a {
 }
 
 .icon-button {
-  --button-size: calc(var(--nav-size) * 0.5);
+  --button-size: 30px;
   width: var(--button-size);
   height: var(--button-size);
   background-color: #484a4d;
@@ -172,8 +172,9 @@ a {
   transform: translateX(0%);
   transition: all var(--speed) ease;
 }
-.menu-secondary-exit {
-}
+/*.menu-secondary-exit {
+}*/
+
 .menu-secondary-exit-active {
   transform: translateX(110%);
   transition: all var(--speed) ease;
