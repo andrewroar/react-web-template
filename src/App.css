@@ -80,7 +80,7 @@ a {
   justify-content: center;
 }
 
-.company-icon {
+.company-icon-self {
   --button-size: 35px;
   width: var(--button-size);
   height: var(--button-size);
@@ -94,7 +94,7 @@ a {
 }
 
 @media only screen and (max-width: 450px) {
-  .company-icon {
+  .company-icon-self {
     padding: auto;
     margin: auto;
   }
@@ -202,7 +202,7 @@ a {
   width: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -238,6 +238,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  overflow: initial;
 }
 
 @media only screen and (max-width: 450px) {
@@ -252,6 +253,7 @@ a {
 
   .main-items-div-div-image {
     height: 10rem;
+    width: 95%;
   }
 }
 

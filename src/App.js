@@ -10,6 +10,7 @@ import { ReactComponent as Cogicon } from "./components/icons/cog.svg";
 import DropdownMenuArrow from "./components/dropdownmenuArrow";
 import DropdownMenuBell from "./components/dropdownmenuBell";
 import Slideimage from "./components/slideimage";
+import Slideimage2 from "./components/slideimage2";
 import Content_1 from "./components/content_1";
 import Content_2 from "./components/content_2";
 import { CSSTransition } from "react-transition-group";
@@ -29,7 +30,7 @@ function App() {
   return (
     <div>
       <Navbar>
-        <CompanyIcon className="company-icon" />
+        <CompanyIcon className="company-icon-self" />
 
         <h1
           style={{
