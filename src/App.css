@@ -67,6 +67,10 @@ a {
   margin: 5px;
 }
 
+.icon-button:hover {
+  background-color: black;
+}
+
 .icon-button {
   --button-size: 30px;
   width: var(--button-size);
