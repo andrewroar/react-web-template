@@ -220,6 +220,10 @@ a {
   .slideshow-each-div {
     height: 400px;
   }
+
+  .slideshow-img {
+    width: 100%;
+  }
 }
 
 /*Main-item*/
@@ -248,7 +252,7 @@ a {
   }
 
   .main-items-div-div {
-    width: 100%;
+    width: 95%;
   }
 
   .main-items-div-div-image {
