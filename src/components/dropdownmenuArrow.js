@@ -19,7 +19,9 @@ export default function DropdownMenuArrow() {
           props.goToMenu && setActiveMenu(props.goToMenu);
         }}
       >
-        <span className="icon-button">{props.leftIcon}</span>
+        <a href={props.url}>
+          <span className="icon-button">{props.leftIcon}</span>
+        </a>
         {props.children}
         <span className="icon-right">{props.rightIcon}</span>
       </a>
@@ -35,7 +37,10 @@ export default function DropdownMenuArrow() {
         onEnter={calcHeight}
       >
         <div className="menu">
-          <DropdownItem leftIcon={<Bellicon />}>
+          <DropdownItem
+            leftIcon={<Bellicon />}
+            url={"https://github.com/andrewroar"}
+          >
             <a href="https://github.com/andrewroar">My Profile</a>
           </DropdownItem>
           <DropdownItem leftIcon={<Cogicon />} goToMenu="settings">

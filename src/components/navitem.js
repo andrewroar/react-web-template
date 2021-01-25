@@ -6,7 +6,7 @@ export default function Navitem(props) {
     <li className="nav-item">
       <a
         href="#"
-        className="icon-button"
+        className="icon-button button-hover"
         onClick={() => {
           setOpen(!open);
         }}

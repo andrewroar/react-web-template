@@ -53,7 +53,7 @@ function App() {
       <div
         style={{
           width: "100%",
-          height: "50px",
+          height: "150px",
           "background-color": "#F8EFCE",
         }}
       ></div>
