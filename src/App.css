@@ -50,6 +50,7 @@ a {
   background-color: var(--bg);
   padding: 0 1rem;
   border-bottom: var(--border);
+  border-width: 5px;
 }
 
 .navbar-nav {
@@ -279,4 +280,8 @@ a {
   .footer {
     flex-direction: column;
   }
+}
+
+.footer-ul li:hover {
+  color: crimson;
 }

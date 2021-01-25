@@ -4,10 +4,18 @@ import "react-slideshow-image/dist/styles.css";
 import background from "./images/example-image.jpg";
 import background2 from "./images/example-image-2.jpg";
 
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+};
+
 export default function Slideimage() {
   return (
     <div className="slide-container">
-      <Slide>
+      <Slide {...properties}>
         <div className="each-slide slideshow-each-div">
           <div
             className="slideshow-img"
