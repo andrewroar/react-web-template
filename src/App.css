@@ -8,11 +8,19 @@
   --speed: 500ms;
 }
 
+/*divider*/
+
+.divider {
+  background-image: linear-gradient(to top right, #e4d9d1, #d47e3d);
+}
+
+/*========================*/
 html,
 body {
   margin: 0;
   height: 100%;
-  background-color: #e5e7e1;
+
+  background-image: linear-gradient(to right, white, #e0f5b6);
   font-family: "Yusei Magic";
 }
 

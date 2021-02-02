@@ -54,8 +54,8 @@ function App() {
         style={{
           width: "100%",
           height: "150px",
-          "background-color": "#F8EFCE",
         }}
+        className="divider"
       ></div>
       <div className="content-div">
         <Content_1 />
@@ -64,8 +64,8 @@ function App() {
         style={{
           width: "100%",
           height: "50px",
-          "background-color": "#F8EFCE",
         }}
+        className="divider"
       ></div>
       <div className="content-div">
         <Content_2 />
@@ -74,8 +74,8 @@ function App() {
         style={{
           width: "100%",
           height: "50px",
-          "background-color": "#F8EFCE",
         }}
+        className="divider"
       ></div>
       <div className="footer-div">
         <div className="content-div">
