@@ -53,7 +53,7 @@ function App() {
       <div
         style={{
           width: "100%",
-          height: "150px",
+          height: "50px",
         }}
         className="divider"
       ></div>
@@ -63,9 +63,8 @@ function App() {
       <div
         style={{
           width: "100%",
-          height: "50px",
+          height: "40px",
         }}
-        className="divider"
       ></div>
       <div className="content-div">
         <Content_2 />
@@ -75,7 +74,6 @@ function App() {
           width: "100%",
           height: "50px",
         }}
-        className="divider"
       ></div>
       <div className="footer-div">
         <div className="content-div">
